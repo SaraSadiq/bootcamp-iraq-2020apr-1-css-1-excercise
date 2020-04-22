@@ -1,0 +1,57 @@
+aside {
+    font-size: 20px;
+    background-color: #336666;
+    /*display: inline-block;*/
+    width: 25%;
+    float: center;
+    overflow: auto;
+    text-align: right;
+    padding-top: 10%;
+    padding-right: 15px;
+  }
+  .pinned { border-bottom: 1px solid Silver;
+  display:inline;
+  color: DarkGray;}
+  main {
+    width: 75%;
+    float: right;
+    overflow: auto;
+    display: flow-root; margin: 50px;
+  }
+  body {
+    display: flex;
+  }
+  .Css {
+    background-color: LimeGreen;
+    color:white;
+    padding: 5px 10px;
+  }
+  .javascript {
+    background-color: SteelBlue;
+    padding: 5px 10px;
+    color: white;
+  }
+  .avatar1 {
+    float: right;
+    border-radius: 50%;
+    width: 40px; height: 40px;
+  }
+  .home,
+  .project {
+    border: 3px solid #5F9EA0;;
+    padding: 10px;
+    color: white;
+    margin: 3px;
+    text-decoration:none;
+  }
+  h3~p { color: #5F9EA0; }
+  h2~p { font-family: Georgia; text-align:justify;}
+  .images { display:block;}
+  .imgs { width: 350px; height: 250px;}
+  .js2 { background-color:red;}
+  .notvisited { background-color: gray; color: white;
+  font-size: 10px;}
+  .contactus{ margin-top: 60px;
+  margin-bottom: auto;  margin-left: 30%;
+  color: Silver;
+  font-size: 10px;}
